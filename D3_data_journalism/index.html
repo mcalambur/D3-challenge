@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Healthcare quality and Poverty levels</h2>
+          <p>Healthcare in the US is an incredibly complex subject. There are several confounding factors that often get in the way of
+            providing quality health out comes for patients. Unlike any other retail business in which there are exactly two players: The product manufacturer and the consumer, 
+            there are many players in a given healthcare "consumption" decision including the Pharmaceuticals that manufacture the product, 
+            The hospital system  or individual practicing physician who prescribe the product, and the Insurance who decides whether or not
+            to cover the price of the product. And each of these players are driven by profit motives in these decisions.</p>
+
+            <p> The one thing that is truly missing from the healthcare picture is the actual patient who is in need of the healthcare product.
+              They often have the least say when they are the ones being impacted the most. If their lives aren't at stake then certainly 
+              their wallets are. With the rising cost of healthcare in this country many policy experts ask the critical question of whois getting 
+              left out becuase they can't afford their care. We have worked to try to visualize the problem by leveraging the Census and BRFSS 
+              data to understand how healthcare is correlated with poverty levels. 
+            </p>
+
+            <p>As you can see in the plot above, there is a clear linear trend between poverty levels and healthcare provided. In layman's terms, 
+              as you improve your poverty levels, we see a steady increase in the healthcare access. With such high prices from the pharma companies, 
+              and insurance companies denying coverage on healthcare products, we can see folks in lower poverty levels are clearly getting left behind. 
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
